@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fefefe; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+   
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #a0a0a0;
+    border-right: 2px solid #a0a0a0;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 30px; 
+    text-align: center; 
+    text-shadow: 1px 1px #ccc;
+  }
+  
+  .field {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  input[type="text"], input[type="tel"], input[type="email"], button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus {
+    outline: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button[type="submit"], button[type="button"] {
+    background-color: #f5deb3; 
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover, button[type="button"]:hover {
+    background-color: #d2b48c; 
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  input[readonly] {
+    background-color: #eee;
+    color: #555;
+  }
+  
